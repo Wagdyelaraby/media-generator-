@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* الخط العربي مع بدائل نظام للعمل دون اتصال */
+body {
+  font-family: "Cairo", "Segoe UI", Tahoma, "Noto Sans Arabic", Arial, sans-serif;
+}
+
+/* شريط التقدم بنبضة لطيفة */
+.progress-bar {
+  transition: width 0.6s ease;
+}

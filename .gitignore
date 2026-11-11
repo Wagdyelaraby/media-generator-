@@ -1,0 +1,18 @@
+# الاعتماديات
+/node_modules
+
+# مخرجات Next.js
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# أسرار البيئة — لا تُرفع إلى Git إطلاقًا
+.env*
+!.env.example
+
+# Vercel والسجلات
+.vercel
+npm-debug.log*
+.DS_Store
